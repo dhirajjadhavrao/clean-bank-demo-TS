@@ -1,0 +1,28 @@
+{
+  "name": "clean-bank-demo-ts",
+  "version": "1.0.0",
+  "description": "POC project for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhirajjadhavrao/clean-bank-demo-TS.git"
+  },
+  "author": "Dhiraj Jadhavrao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhirajjadhavrao/clean-bank-demo-TS/issues"
+  },
+  "homepage": "https://github.com/dhirajjadhavrao/clean-bank-demo-TS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11"
+  }
+}
